@@ -1,0 +1,88 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="0dp"
+    android:layout_margin="0dp"
+    android:background="@color/background"
+    android:clickable="true"
+    >
+	<RelativeLayout 
+	    android:id="@+id/subscribe_options"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+	    >
+	    <LinearLayout 
+	        android:id="@+id/subscribe_not_subscriber"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:orientation="vertical"
+	        >
+	        <TextView 
+	            android:text="Subscribe now"
+			    android:layout_width="match_parent"
+			    android:layout_height="wrap_content"
+			    style="@style/heading"
+			    android:padding="5dp"
+	            />
+	        <TextView 
+	            android:text="Subscribe to Brief to enable all features:"
+			    android:layout_width="match_parent"
+			    android:layout_height="wrap_content"
+			    android:paddingBottom="10dp"
+	            />
+	    </LinearLayout>
+	    <LinearLayout 
+	        android:id="@+id/subscribe_is_subscriber"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:orientation="vertical"
+	        >
+	        <TextView 
+	            android:text="Already a subscriber"
+			    android:layout_width="match_parent"
+			    android:layout_height="wrap_content"
+			    style="@style/heading"
+			    android:padding="5dp"
+	            />
+	        <TextView 
+	            android:text="As a subscriber you have access to the extra features in Brief:"
+			    android:layout_width="match_parent"
+			    android:layout_height="wrap_content"
+			    android:padding="5dp"
+	            />
+	    </LinearLayout>
+	    
+	</RelativeLayout>
+    <LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical"
+	    android:layout_below="@id/subscribe_options"
+        >
+        <TextView 
+            android:text="Customise email signatures, taylor signatures appended to emails"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:drawableLeft="@drawable/navigation_accept"
+		    android:layout_margin="10dp"
+		    android:padding="5dp"
+            />
+        <TextView 
+            android:text="Safe File delete feature, secure deleting of files"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:drawableLeft="@drawable/navigation_accept"
+		    android:layout_margin="10dp"
+		    android:padding="5dp"
+            />
+        <TextView 
+            android:text="Full archive features, no file limits"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:drawableLeft="@drawable/navigation_accept"
+		    android:layout_margin="10dp"
+		    android:padding="5dp"
+            />
+    </LinearLayout>
+</RelativeLayout>

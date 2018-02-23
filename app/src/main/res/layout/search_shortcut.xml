@@ -1,0 +1,78 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="0dp"
+    android:layout_margin="0dp"
+    android:clickable="true"
+    android:id="@+id/home_layout"
+
+     >
+
+     <RelativeLayout 
+	    android:id="@+id/search_start"
+	    android:layout_width="match_parent"
+	    android:layout_below="@id/search_tools"
+	   	android:layout_height="wrap_content"
+	   	android:visibility="gone"
+	    >
+
+	    <TextView 
+		    android:text="@string/search_start"
+		    style="@style/info_text"
+		    />
+	</RelativeLayout>
+     <LinearLayout 
+	    android:id="@+id/search_updating"
+	    android:layout_width="match_parent"
+	    android:layout_below="@id/search_tools"
+	   	android:layout_height="wrap_content"
+	   	android:orientation="vertical"
+	   	android:visibility="gone"
+	   	
+	    >
+		<ProgressBar
+		    android:id="@+id/layout_search_progress_bar"
+		    android:layout_width="30dp"
+		    android:layout_height="30dp"
+		    android:layout_gravity="center"
+		     />
+	    <TextView 
+		    android:text="@string/search_searching"
+		    style="@style/info_text"
+		    android:layout_gravity="center"
+		    android:paddingTop="5dp"
+		    android:paddingBottom="5dp"
+		    
+		    />
+	</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <ListView android:id="@+id/search_list"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_below="@id/search_updating"
+
+            android:layout_margin="0dp"
+            android:padding="0dp"
+            android:divider="@null"
+            android:dividerHeight="0dp"
+            />
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <LinearLayout
+                android:id="@+id/search_list_folders"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+
+                />
+        </HorizontalScrollView>
+    </LinearLayout>
+</RelativeLayout>

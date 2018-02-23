@@ -1,0 +1,18 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item>
+      <shape android:shape="rectangle">
+            <solid android:color="@color/browse_brand_alpha50" />
+        </shape>
+   </item>
+
+   <item android:top="-2dp" android:bottom="0dp" android:left="-2dp" android:right="-2dp"> 
+      <shape android:shape="rectangle">
+            <padding android:left="10dp"
+                   android:top="15dp"
+                android:right="10dp"
+                android:bottom="15dp" />
+            <stroke android:width="2dp" android:color="@color/browse_brand_alpha50" />
+            <solid android:color="#00000000" />
+        </shape>
+   </item>
+</layer-list>

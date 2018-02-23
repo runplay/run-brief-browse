@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".Main">
+    <item
+        android:id="@+id/file_explore_archive_extract"
+        android:title="@string/label_archive"
+
+        android:icon="@drawable/btn_zip_extract"
+        app:showAsAction="always" />
+</menu>

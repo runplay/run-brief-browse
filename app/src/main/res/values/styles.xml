@@ -1,0 +1,144 @@
+<resources>
+    <style name="AppTheme" parent="Base.Theme.AppCompat">
+        <item name="colorPrimary">@color/browse_brand</item>
+        <item name="colorPrimaryDark">@color/browse_brand</item>
+
+        <item name="themeName">dark</item>
+        <item name="android:editTextColor">@color/white</item>
+        <item name="actionBarDivider">@null</item>
+        <item name="android:actionBarDivider">@null</item>
+        <item name="android:actionBarStyle">@style/ToolbarStyle</item>
+        <item name="actionBarTheme">@style/ToolbarStyle</item>
+        <item name="android:windowTitleStyle">@style/DialogWindowTitle_Custom</item>
+        <item name="android:dialogTitle">@style/DialogWindowTitle_Custom</item>
+    </style>
+    <style name="AppThemeLight" parent="Base.Theme.AppCompat.Light">
+        <item name="colorPrimary">@color/browse_brand</item>
+        <item name="colorPrimaryDark">@color/browse_brand</item>
+
+        <item name="themeName">light</item>
+        <item name="actionBarDivider">@null</item>
+        <item name="android:actionBarDivider">@null</item>
+        <item name="android:actionMenuTextColor">@color/white</item>
+        <item name="android:actionBarStyle">@style/ToolbarStyle</item>
+        <item name="actionBarTheme">@style/ToolbarStyle</item>
+        <item name="android:windowTitleStyle">@style/DialogWindowTitle_Custom</item>
+        <item name="android:dialogTitle">@style/DialogWindowTitle_Custom</item>
+
+    </style>
+
+    <style name="ToolbarStyle" parent="ThemeOverlay.AppCompat.ActionBar">
+
+        <item name="colorPrimary">@color/browse_brand</item>
+        <item name="colorPrimaryDark">@color/browse_brand</item>
+        <item name="android:colorBackground">@color/browse_brand</item>
+
+        <item name="drawerArrowStyle">@style/DrawerArrowStyle</item>
+
+
+        <item name="windowActionModeOverlay">true</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="actionBarDivider">@null</item>
+        <item name="android:actionBarDivider">@null</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:editTextColor">@color/white</item>
+
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="android:textColorSecondary">@color/white</item>
+        <item name="android:textColorPrimaryInverse">@color/white</item>
+        <item name="android:textColorSecondaryInverse">@color/white</item>
+    </style>
+
+    <style name="DrawerArrowStyle" parent="Widget.AppCompat.DrawerArrowToggle">
+        <item name="spinBars">true</item>
+        <item name="color">@android:color/white</item>
+        <item name="colorControlNormal">@color/white</item>
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="android:textColorSecondary">@color/white</item>
+        <item name="android:textColorPrimaryInverse">@color/white</item>
+        <item name="android:textColorSecondaryInverse">@color/white</item>
+    </style>
+
+    <style name="DialogWindowTitle_Custom" parent="AlertDialog.AppCompat">
+        <item name="android:scrollHorizontally">true</item>
+        <item name="android:textAppearance">@style/TextAppearance_DialogWindowTitle</item>
+    </style>
+<!-- @android:style/TextAppearance.Holo.DialogWindowTitle -->
+    <style name="TextAppearance_DialogWindowTitle" parent="DialogWindowTitle_Custom">
+        <item name="android:textColor">@color/browse_brand</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <color name="primary">#457C50</color>
+    <color name="primaryDarker">#580C0C</color>
+
+    <style name="button_brand">
+        <item name="android:background">@color/browse_brand_alpha75</item>
+    </style>
+
+    <style name="FontSizeSmall">
+        <item name="android:textSize">12sp</item>
+    </style>
+    <style name="FontSizeMedium">
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="FontSizeLarge">
+        <item name="android:textSize">18sp</item>
+    </style>
+    <style name="FontSizeXLarge">
+        <item name="android:textSize">22sp</item>
+    </style>
+
+    <style name="text_small">
+        <item name="android:textSize">12sp</item>
+    </style>
+    <style name="text_medium">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="text_title">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+    <style name="heading">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#333333</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:background">@drawable/border_bottom</item>
+    </style>
+    <style name="info_text" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">18sp</item>
+
+        <item name="android:background">@color/grey_alpha_light</item>
+    </style>
+    <style name="popup_button" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#333333</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:drawablePadding">10dp</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:gravity">left|center_vertical</item>
+        <item name="android:background">@drawable/popup_button</item>
+    </style>
+    <style name="popup_button_close" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:drawablePadding">10dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:paddingTop">15dp</item>
+        <item name="android:layout_marginTop">20dp</item>
+
+        <item name="android:gravity">left|center_vertical</item>
+        <item name="android:background">@drawable/popup_button_close</item>
+    </style>
+
+
+</resources>

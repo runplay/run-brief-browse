@@ -1,0 +1,53 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    
+    >
+    <item
+        android:id="@+id/action_paste"
+        android:title="@string/action_paste"
+        android:icon="@drawable/content_paste"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_search"
+        android:title="@string/action_search"
+        android:icon="@drawable/action_search_w"
+        app:showAsAction="always" />
+    <!--
+    <item
+        android:id="@+id/action_settings"
+        android:title="@string/action_settings"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/orderby_name_asc"
+
+        android:title="@string/orderby_name_asc"/>
+
+    <item
+        android:id="@+id/orderby_name_desc"
+        android:title="@string/orderby_name_desc"/>
+    <item
+        android:title=""
+        android:enabled="false" />
+    <item
+        android:id="@+id/orderby_date_asc"
+        android:title="@string/orderby_date_asc"/>
+    <item
+        android:id="@+id/orderby_date_desc"
+        android:title="@string/orderby_date_desc"/>
+    <item
+        android:id="@+id/showhide_system_files"
+        android:title="@string/showhide_system_files"/>
+
+    <item
+        android:id="@+id/action_search"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:icon="@drawable/action_search"
+        android:title="@string/action_search"/>
+    -->
+
+</menu>

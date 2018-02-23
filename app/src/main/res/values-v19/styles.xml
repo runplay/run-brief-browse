@@ -1,0 +1,87 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">@color/browse_brand</item>
+        <item name="colorPrimaryDark">@color/browse_brand</item>
+
+        <item name="drawerArrowStyle">@style/DrawerArrowStyle</item>
+        <item name="themeName">dark</item>
+        <item name="android:editTextColor">@color/white</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="actionBarDivider">@null</item>
+        <item name="android:actionBarDivider">@null</item>
+
+        <item name="actionBarTheme">@style/ToolbarStyle</item>
+        <item name="android:actionBarStyle">@style/ToolbarStyle</item>
+
+
+        <item name="actionModeBackground">@color/browse_brand</item>
+        <item name="actionBarPopupTheme">@style/ToolbarStyle</item>
+        <item name="android:windowTitleStyle">@style/DialogWindowTitle_Custom</item>
+        <item name="android:dialogTitle">@style/DialogWindowTitle_Custom</item>
+
+    </style>
+    <style name="AppThemeLight" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/browse_brand</item>
+        <item name="colorPrimaryDark">@color/browse_brand</item>
+
+        <item name="themeName">light</item>
+        <item name="drawerArrowStyle">@style/DrawerArrowStyle</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="actionBarDivider">@null</item>
+        <item name="android:actionBarDivider">@null</item>
+
+        <item name="actionBarTheme">@style/ToolbarStyle</item>
+        <item name="android:actionBarStyle">@style/ToolbarStyle</item>
+
+        <item name="actionModeBackground">@color/browse_brand</item>
+        <item name="actionBarPopupTheme">@style/ToolbarStyle</item>
+        <item name="android:windowTitleStyle">@style/DialogWindowTitle_Custom</item>
+        <item name="android:dialogTitle">@style/DialogWindowTitle_Custom</item>
+
+    </style>
+
+    <style name="ToolbarStyle" parent="ThemeOverlay.AppCompat.ActionBar">
+
+        <item name="colorPrimary">@color/browse_brand</item>
+        <item name="colorPrimaryDark">@color/browse_brand</item>
+        <item name="android:colorBackground">@color/browse_brand</item>
+        <item name="android:background">@color/browse_brand</item>
+        <item name="drawerArrowStyle">@style/DrawerArrowStyle</item>
+        <item name="android:windowBackground">@color/browse_brand</item>
+
+        <item name="windowActionModeOverlay">true</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="actionBarDivider">@null</item>
+        <item name="android:actionBarDivider">@null</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:editTextColor">@color/white</item>
+
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="android:textColorSecondary">@color/white</item>
+        <item name="android:textColorPrimaryInverse">@color/white</item>
+        <item name="android:textColorSecondaryInverse">@color/white</item>
+    </style>
+    <style name="DrawerArrowStyle" parent="Widget.AppCompat.DrawerArrowToggle">
+        <item name="spinBars">true</item>
+        <item name="color">@android:color/white</item>
+        <item name="colorControlNormal">@color/white</item>
+
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="android:textColorSecondary">@color/white</item>
+        <item name="android:textColorPrimaryInverse">@color/white</item>
+        <item name="android:textColorSecondaryInverse">@color/white</item>
+    </style>
+    <style name="DialogWindowTitle_Custom" parent="AlertDialog.AppCompat">
+        <item name="android:scrollHorizontally">true</item>
+        <item name="android:textAppearance">@style/TextAppearance_DialogWindowTitle</item>
+    </style>
+    <!-- @android:style/TextAppearance.Holo.DialogWindowTitle -->
+    <style name="TextAppearance_DialogWindowTitle" parent="DialogWindowTitle_Custom">
+        <item name="android:textColor">@color/browse_brand</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+</resources>

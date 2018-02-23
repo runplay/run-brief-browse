@@ -1,0 +1,44 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+	android:padding="10dp"
+    android:layout_margin="20dp"
+    android:clickable="true"
+    android:orientation="vertical"
+    >
+
+    <Button
+        android:id="@+id/note_dialog_delete"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:clickable="true"
+	    android:text="@string/label_delete"
+	    android:drawableLeft="@drawable/content_discard"
+	    style="@style/popup_button"
+	    android:gravity="left|center_vertical"
+        />
+            <Button 
+        android:id="@+id/dialog_copy"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:clickable="true"
+	    android:text="@string/label_copy"
+	    android:drawableLeft="@drawable/content_copy"
+	    style="@style/popup_button_close"
+	    android:gravity="left|center_vertical"
+	    
+        />
+    <Button 
+        android:id="@+id/dialog_cancel"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:clickable="true"
+	    android:text="@string/label_cancel"
+	    android:drawableLeft="@drawable/navigation_cancel"
+	    style="@style/popup_button_close"
+	    android:gravity="left|center_vertical"
+	    
+        />
+
+</LinearLayout>

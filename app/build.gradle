@@ -1,0 +1,36 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 22
+    buildToolsVersion '25.0.0'
+
+    defaultConfig {
+        applicationId "run.brief.browse"
+        minSdkVersion 16
+        targetSdkVersion 21
+
+    }
+    buildTypes {
+        release {
+            minifyEnabled true
+            debuggable false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+/*
+            applicationVariants.all { variant ->
+                variant.outputs.each { output ->
+                    def date = new Date();
+                    def formattedDate = date.format('yyyyMMdd-HHmmss')
+                    output.outputFile = new File(output.outputFile.parent,
+                            output.outputFile.name.replace("app-release", "Browse-" + formattedDate)
+                    )
+                }
+            }
+            */
+        }
+    }
+}
+
+dependencies {
+    //compile files('libs/android-support-v7-recyclerview.jar')
+    compile 'com.android.support:appcompat-v7:22.1.1'
+}

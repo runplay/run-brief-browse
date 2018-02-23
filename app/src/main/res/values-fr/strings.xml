@@ -1,0 +1,117 @@
+<resources>
+    <string name="app_name">Browse</string>
+    <string name="www_link">www.brief.ink</string>
+    <string name="email_link">support@brief.ink</string>
+
+
+    <string name="navigation_drawer_open">Ouvrir la navigation</string>
+    <string name="navigation_drawer_close">Fermer la navigation</string>
+
+    <string name="action_search">Trouver</string>
+
+    <string name="action_settings">Paramètres</string>
+    <string name="action_paste">Pâte</string>
+    <string name="label_copy">Copie</string>
+
+    <string name="menu_delete">Effacer</string>
+    <string name="menu_open_file">Dossier ouvert</string>
+    <string name="file_menu_options">Les options</string>
+
+    <string name="files_delete">Effacer les fichiers</string>
+    <string name="files_delete_now">Effacer les fichiers maintenant</string>
+
+    <string name="files_delete_completed">Effacer terminé</string>
+
+    <string name="label_delete">Effacer</string>
+    <string name="label_cancel">Annuler</string>
+
+
+    <string name="ok">D\'accord</string>
+
+
+    <string name="file_invalid">Fichier non valide, et non pas sur le stockage</string>
+    <string name="no_file_format">Impossible de reconnaître le type de fichier</string>
+
+    <string name="label_open">Ouvert</string>
+    <string name="label_remove">Supprimer</string>
+
+
+    <string name="label_images">Images</string>
+    <string name="label_edit">Modifier</string>
+
+    <string name="label_files">Browse</string>
+
+    <string name="file_explore_empty">Vide</string>
+
+    <string name="showhide_system_files">Fichiers système Afficher / Masquer</string>
+    <string name="file_explore_order_error">Trop de fichiers pour pouvoir commander</string>
+
+
+
+
+
+
+    <string name="settings_tab1">Paramètres</string>
+    <string name="settings_tab2">Aidez-moi</string>
+    <string name="settings_tab3">Sur App</string>
+
+    <string name="settings_theme">Thème</string>
+    <string name="settings_theme_desc">Changez la couleur de style préféré</string>
+    <string name="settings_theme_dark">Foncé</string>
+    <string name="settings_theme_light">Lumière</string>
+<!--
+    <string name="settings_paste">Options de Coller</string>
+    <string name="settings_paste_desc">When pasting a file from the clipboard and a file by that name already exists:</string>
+    <string name="settings_paste_rename">Rename the file (append number)</string>
+    <string name="settings_paste_overwrite">Overwrite existing file</string>
+-->
+
+    <string name="settings_head_visual">Thème</string>
+
+    <string name="help_shortcuts">Navigation</string>
+    <string name="help_shortcuts_desc">Utilisez le bouton de menu 3 bandes pour ouvrir le curseur de navigation pour les options et raccourcis rapides à travers le système de fichiers</string>
+    <string name="help_fab">Bouton d\'action</string>
+    <string name="help_fab_desc">Parcourir jusqu\'à l\'arborescence des dossiers en utilisant la flèche de retour</string>
+
+
+    <string name="search_hint">Type termes de recherche...</string>
+    <string name="label_share">Partager</string>
+
+    <string name="label_about">Sur App</string>
+    <string name="about_version">version</string>
+    <string name="about_by">© BRIEF APP LTD, UK, 2014 en avant</string>
+    <string name="about_send_to">S\'il vous plaît envoyer vos conseils, des idées, des corrections à:</string>
+
+
+    <string name="label_archive">Archives</string>
+    <string name="label_extract">Extrait</string>
+
+    <string name="label_help">Aidez-moi</string>
+    <string name="label_options">Options</string>
+    <string name="label_loading">Chargement</string>
+    <string name="label_search">Trouver</string>
+    <string name="search_start">Entrez les termes de recherche ci-dessus et cliquez pour chercher</string>
+    <string name="search_searching">Découverte</string>
+
+
+    <string name="zip_duplicates">Dupliquer les noms de fichiers trouvés , changer le dossier de sortie</string>
+
+    <string name="no_sd_card_access">Carte SD est verrouillé pour l\'accès, déverrouiller utiliser bref</string>
+
+    <string name="action_use">accepter</string>
+    <string name="choose_folder">Choisir un dossier</string>
+    <string name="nav_images">Images</string>
+    <string name="nav_downloads">Télécharge</string>
+    <string name="nav_documents">Documents</string>
+    <string name="nav_videos">Vidéos</string>
+    <string name="nav_music">Music</string>
+
+    <string name="label_paste_files">Dupliquer les fichiers</string>
+    <string name="label_move">déménager</string>
+    <string name="label_moving">déménager les fichiers</string>
+    <string name="creating_archive">pour créer une archive</string>
+
+    <string name="label_rename">changer de nom</string>
+    <string name="useful_folders">dossiers utiles</string>
+    <string name="text_files">fichiers texte</string>
+</resources>

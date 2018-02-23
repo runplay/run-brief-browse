@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="material_blue_500">#5677fc</color>
+    <color name="browse_brand_alpha50">#80FF9900</color>
+    <color name="browse_brand_alpha25">#40FF9900</color>
+    <color name="browse_brand_alpha75">#B0FF9900</color>
+    <color name="browse_brand">#FF9900</color>
+    <color name="browse_brand_dark">#b87514</color>
+
+    <color name="zip_header_bg">#88FF9900</color>
+
+    <color name="actionbar_basic">#E6E6E6</color>
+    <color name="actionbar_general">#ffffff</color>
+    <color name="actionbar_brief_message">#86E070</color>
+
+    <color name="transparent">#00000000</color>
+    
+    <color name="menu_overlay">#11000000</color>
+    <color name="background">#000000</color>
+
+    
+	<color name="item_selected_brief">#806e936e</color>
+
+    <color name="emo_grid_bg">#324341</color>
+
+
+    <color name="emoticon_color_alpha">#D0FFFFFF</color>
+
+    <color name="navigation">#cccccc</color>
+    <color name="navigationalpha">#33000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="white_alpha">#80FFFFFF</color>
+    <color name="white_alpha_gotop">#E0FFFFFF</color>
+    <color name="white_alpha_strong">#C0FFFFFF</color>
+    <color name="white_alpha_light">#40FFFFFF</color>
+    <color name="white_alpha_vlight">#20FFFFFF</color>
+    <color name="alpha">#00000000</color>
+    <color name="copy_to_clip">#FFFFCC</color>
+    
+    <color name="red">#990000</color>
+    <color name="red_alpha">#D00000</color>
+    <color name="green">#009900</color>
+    <color name="black">#000000</color>
+    <color name="green_alpha">#80009000</color>
+    <color name="grey">#999999</color>
+    <color name="grey_alpha">#80999999</color>
+    <color name="grey_alpha_light">#40999999</color>
+    <color name="grey_light">#DDDDDD</color>
+    <color name="black_alpha">#80000000</color>
+    <color name="black_alpha_light">#40000000</color>
+    <color name="black_alpha_vlight">#20000000</color>
+    <color name="black_alpha_strong">#B0000000</color>
+
+
+ </resources>

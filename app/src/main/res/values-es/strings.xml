@@ -1,0 +1,109 @@
+<resources>
+    <string name="app_name">Browse</string>
+    <string name="www_link">www.brief.ink</string>
+    <string name="email_link">support@brief.ink</string>
+
+
+    <string name="navigation_drawer_open">navegación Abrir</string>
+    <string name="navigation_drawer_close">Cerca de navegación</string>
+
+    <string name="action_search">Buscar</string>
+
+    <string name="action_settings">Ajustes</string>
+    <string name="action_paste">Pegar</string>
+    <string name="label_copy">Cortar</string>
+
+    <string name="menu_delete">Borrar</string>
+    <string name="menu_open_file">Borrar archivo</string>
+    <string name="file_menu_options">opción de Borrar</string>
+
+    <string name="files_delete">Borrar archivos</string>
+    <string name="files_delete_now">Eliminar archivos activos</string>
+    <string name="files_delete_completed">Eliminar completa</string>
+
+
+    <string name="label_delete">Eliminar</string>
+    <string name="label_cancel">Cancelar</string>
+
+
+    <string name="ok">OK</string>
+
+
+    <string name="file_invalid">Archivo no válido , no en el almacenamiento</string>
+    <string name="no_file_format">No se puede reconocer el formato de archivo</string>
+
+    <string name="label_open">Abierto</string>
+    <string name="label_remove">Quitar</string>
+
+    <string name="label_images">Imageness</string>
+    <string name="label_edit">Editar</string>
+    <string name="label_files">Browse</string>
+
+    <string name="file_explore_empty">Vacío</string>
+
+    <string name="showhide_system_files">Archivos del sistema Mostrar / Ocultar</string>
+    <string name="file_explore_order_error">Archivo contar grande. no puede organizar</string>
+
+
+    <string name="settings_tab1">Ajustes</string>
+    <string name="settings_tab2">Ayuda</string>
+    <string name="settings_tab3">Acerca de</string>
+
+    <string name="settings_theme">Tema</string>
+    <string name="settings_theme_desc">Cambiar el estilo de color preferido</string>
+    <string name="settings_theme_dark">Oscuro</string>
+    <string name="settings_theme_light">Ligero</string>
+
+    <string name="settings_head_visual">Tema</string>
+
+
+
+
+    <string name="help_shortcuts">Navegación</string>
+    <string name="help_shortcuts_desc">Usa el botón de menú de 3 rayas para abrir el control deslizante de navegación para las opciones y atajos rápidos de todo el sistema de archivos</string>
+    <string name="help_fab">Botón de acción</string>
+    <string name="help_fab_desc">Navegar por el árbol de carpetas utilizando la flecha hacia atrás</string>
+
+
+
+    <string name="search_hint">ingresar palabras clave de búsqueda...</string>
+    <string name="label_share">Compartir</string>
+
+    <string name="label_about">Acerca de</string>
+    <string name="about_version">Versión</string>
+    <string name="about_by">© BRIEF APP LTD, UK, 2014 adelante</string>
+    <string name="about_send_to">Por favor envíe sus sugerencias, ideas, correcciones a:</string>
+
+
+    <string name="label_archive">Comprimir</string>
+    <string name="label_extract">Extracto</string>
+
+    <string name="label_help">Ayuda</string>
+    <string name="label_options">Opciones</string>
+    <string name="label_loading">Cargando</string>
+    <string name="label_search">Buscar</string>
+    <string name="search_start">Introduzca los términos de búsqueda arriba y haga clic para buscar</string>
+    <string name="search_searching">Búsqueda</string>
+
+
+    <string name="zip_duplicates">Duplicar nombres de archivos encontrados, cambiar la carpeta de salida</string>
+
+    <string name="no_sd_card_access">Tarjeta SD está bloqueada para el acceso, desbloquear utilizar breve</string>
+
+    <string name="action_use">Usar</string>
+    <string name="choose_folder">Elegir carpeta</string>
+    <string name="nav_images">Imágenes</string>
+    <string name="nav_downloads">Descargas</string>
+    <string name="nav_documents">Documentos</string>
+    <string name="nav_videos">Videos</string>
+    <string name="nav_music">Música</string>
+
+    <string name="label_paste_files">Duplicación archivos</string>
+    <string name="label_move">Movida</string>
+    <string name="label_moving">Movida archivos</string>
+    <string name="creating_archive">archivo de la creación</string>
+
+    <string name="label_rename">cambiar nombre</string>
+    <string name="useful_folders">carpetas útiles</string>
+    <string name="text_files">archivos de texto</string>
+</resources>

@@ -1,0 +1,9 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".Main">
+    <item
+        android:id="@+id/open_edit"
+        android:title="@string/label_edit"
+        android:icon="@drawable/content_edit"
+        app:showAsAction="always" />
+</menu>

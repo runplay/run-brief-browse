@@ -1,0 +1,120 @@
+<resources>
+    <string name="app_name">Browse</string>
+    <string name="www_link">www.brief.ink</string>
+    <string name="email_link">support@brief.ink</string>
+    <string name="label_files">Browse</string>
+
+
+    <string name="navigation_drawer_open">Öffnen Navigation</string>
+    <string name="navigation_drawer_close">Schließen Navigation</string>
+
+    <string name="action_search">Suche</string>
+
+    <string name="action_settings">Einstellungen</string>
+    <string name="action_paste">Paste</string>
+    <string name="label_copy">Kopie</string>
+
+    <string name="menu_delete">Löschen</string>
+    <string name="menu_open_file">Öffne Datei</string>
+    <string name="file_menu_options">Dateioptionen</string>
+
+    <string name="files_delete">Dateien löschen</string>
+    <string name="files_delete_now">deleteing Dateien jetzt</string>
+    <string name="files_delete_completed">löschen abgeschlossen</string>
+
+
+    <string name="label_delete">löschen</string>
+    <string name="label_cancel">Absagen</string>
+
+
+    <string name="ok">OK</string>
+
+
+    <string name="file_invalid">Ungültige Datei, nicht lager</string>
+    <string name="no_file_format">Dateiformat nicht erkennen kann</string>
+
+    <string name="label_open">Geöffnet</string>
+    <string name="label_remove">Entfernen</string>
+
+    <string name="label_images">Bilder</string>
+    <string name="label_edit">Bearbeiten</string>
+
+
+    <string name="file_explore_empty">Leer</string>
+
+    <string name="showhide_system_files">Systemdateien anzeigen / ausblenden</string>
+    <string name="file_explore_order_error">Zu viele Dateien, um zu bestellen</string>
+
+
+    <string name="settings_tab1">Optionen</string>
+    <string name="settings_tab2">Hilfe</string>
+    <string name="settings_tab3">über</string>
+
+    <string name="settings_theme">Leitmotiv</string>
+    <string name="settings_theme_desc">Ändern Sie bevorzugte Farbe Stil</string>
+    <string name="settings_theme_dark">Dunkel</string>
+    <string name="settings_theme_light">Licht</string>
+    <!--
+        <string name="orderby_name_asc">Order by name ascending</string>
+        <string name="orderby_name_desc">Order by name descending</string>
+        <string name="orderby_date_asc">Order by date ascending</string>
+        <string name="orderby_date_desc">Order by date descending</string>
+        <string name="settings_paste">Paste options</string>
+        <string name="settings_paste_desc">When pasting a file from the clipboard and a file by that name already exists:</string>
+        <string name="settings_paste_rename">Rename the file (append number)</string>
+        <string name="settings_paste_overwrite">Overwrite existing file</string>
+    -->
+
+    <string name="settings_head_visual">Leitmotiv</string>
+
+
+
+
+    <string name="help_shortcuts">Schifffahrt</string>
+    <string name="help_shortcuts_desc">Verwenden Sie den 3 Streifen Menü-Taste, um das Navigationsschiebereglerfür Optionen und schnellen Abkürzungen rund um das Dateisystem zu öffnen</string>
+    <string name="help_fab">Aktionstaste</string>
+    <string name="help_fab_desc">Durchsuchen Sie die Ordner-Struktur mit der Zurück-Pfeil</string>
+
+
+
+    <string name="search_hint">Art Suchbegriffe...</string>
+    <string name="label_share">Aktie</string>
+
+    <string name="label_about">über</string>
+    <string name="about_version">Version</string>
+    <string name="about_by">© BRIEF APP LTD, UK, 2014 weiter</string>
+    <string name="about_send_to">Bitte senden Sie irgendwelche Tipps, Ideen, Korrekturen:</string>
+
+
+    <string name="label_archive">Archivieren</string>
+    <string name="label_extract">Extrakt</string>
+
+    <string name="label_help">Hilfe</string>
+    <string name="label_options">Optionen</string>
+    <string name="label_loading">Loading</string>
+    <string name="label_search">Suche</string>
+    <string name="search_start">Geben Sie Suchbegriffe ein und klicken Sie oben, um zu suchen</string>
+    <string name="search_searching">Suche</string>
+
+
+    <string name="zip_duplicates">Doppelte Dateinamen gefunden werden, ändern Ausgabeordner</string>
+
+    <string name="no_sd_card_access">SD-Karte ist für den Zugriff gesperrt ist, entsperren zu app verwenden</string>
+
+    <string name="action_use">Ok</string>
+    <string name="choose_folder">Ordner wählen</string>
+    <string name="nav_images">Bilder</string>
+    <string name="nav_downloads">Downloads</string>
+    <string name="nav_documents">Unterlagen</string>
+    <string name="nav_videos">Videos</string>
+    <string name="nav_music">Musik</string>
+
+    <string name="label_paste_files">Duplizieren von Dateien</string>
+    <string name="label_move">Umzug</string>
+    <string name="label_moving">Umzug Dateien</string>
+    <string name="creating_archive">Archiv</string>
+
+    <string name="label_rename">Namen ändern</string>
+    <string name="useful_folders">Nützliche Ordner</string>
+    <string name="text_files">Textdateien</string>
+</resources>

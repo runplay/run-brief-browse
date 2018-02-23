@@ -1,0 +1,128 @@
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    android:background="@color/white"
+    >
+
+
+<LinearLayout
+    android:layout_height="wrap_content"
+    android:layout_width="fill_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:padding="5dp"
+        android:paddingBottom="0dp"
+        >
+        <ImageView
+            android:id="@+id/btn_settings"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/action_settings"
+            android:layout_margin="6dp"
+            />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            >
+            <ImageView
+                android:id="@+id/btn_nav_hdd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/device_access_storage"
+                android:layout_margin="4dp"
+                />
+            <ImageView
+                android:id="@+id/btn_nav_sdcard"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/device_access_sd_storage"
+                android:layout_margin="4dp"
+                />
+            <!--
+            <ImageView
+                android:id="@+id/btn_nav_usb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/device_access_usb"
+                android:layout_margin="4dp"
+                />
+            -->
+        </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="1dp"
+        android:paddingBottom="5dp"
+        >
+        <GridView
+            android:id="@+id/nav_list"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:choiceMode="singleChoice"
+            android:divider="@android:color/transparent" android:dividerHeight="0dp"
+            android:background="@color/browse_brand"
+            android:columnWidth="80dp"
+            android:numColumns="3"
+            android:gravity="center_horizontal"
+            android:verticalSpacing="2dp"
+            android:horizontalSpacing="5dp"
+            />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/nav_show_disk_stats"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp">
+
+        <ProgressBar
+            android:id="@+id/nav_show_disk_progress"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:progressDrawable="@drawable/progress_bar"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/device_access_sd_storage"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/nav_show_disk_stats_total"
+            android:textColor="@color/white"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="7dp"
+            android:paddingRight="10dp"
+            />
+
+    </RelativeLayout>
+    <GridView
+        android:id="@+id/nav_shortcuts"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:columnWidth="130dp"
+        android:numColumns="auto_fit"
+
+        android:verticalSpacing="2dp"
+        android:horizontalSpacing="2dp"
+        android:stretchMode="columnWidth"
+        android:gravity="center_horizontal|center_vertical"
+        android:layout_gravity="center_horizontal|center_vertical"
+        >
+
+    </GridView>
+</LinearLayout>
+</RelativeLayout>
+

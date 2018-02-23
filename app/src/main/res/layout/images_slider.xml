@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    >
+
+    <run.brief.util.explore.ImageSliderPager
+        android:id="@+id/pager"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/black_alpha_light"
+        android:padding="4dp"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        >
+        <ImageView
+            android:id="@+id/slider_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/navigation_back"
+            android:layout_margin="3dp"
+            />
+        <ImageView
+            android:id="@+id/slider_share"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/social_share"
+            android:layout_alignParentRight="true"
+            android:layout_margin="3dp"
+            />
+    </RelativeLayout>
+</RelativeLayout>

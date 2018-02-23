@@ -1,0 +1,125 @@
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+    <RelativeLayout
+        android:id="@+id/main_no_sd_card"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="true"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:visibility="gone"
+        android:background="@color/black_alpha"
+        >
+        <TextView
+            android:id="@+id/main_no_sd_card_text"
+            android:layout_width="250dp"
+            android:layout_height="match_parent"
+            android:text="@string/no_sd_card_access"
+            android:gravity="center"
+            android:drawableTop="@drawable/content_save"
+            android:textColor="#ffffff"
+            />
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:visibility="gone"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:fitsSystemWindows="true"
+            android:minHeight="?attr/actionBarSize"
+            fab:theme="@style/ToolbarStyle"
+
+            />
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <LinearLayout
+                android:id="@+id/loading"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:clickable="true"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_horizontal"
+                android:visibility="gone"
+                android:background="@color/black_alpha_strong"
+                android:orientation="vertical"
+                >
+                <ProgressBar
+                    android:id="@+id/loading_progress"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    style="@android:style/Widget.ProgressBar.Small"
+                    android:padding="7dp"
+                    android:layout_marginTop="40dp"
+                    />
+                <TextView
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/label_loading"
+                    android:gravity="center"
+                    android:textColor="#ffffff"
+
+                    />
+            </LinearLayout>
+
+
+            <run.brief.b.fab.FloatingActionButton
+                android:id="@+id/fab"
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|right"
+                android:gravity="bottom|right"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_margin="16dp"
+                android:src="@drawable/navigation_back"
+                fab:fab_colorNormal="@color/browse_brand"
+                fab:fab_colorPressed="@color/browse_brand_dark"
+                fab:fab_colorRipple="@color/actionbar_brief_message" />
+            <RelativeLayout
+                android:id="@+id/container"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                />
+        </RelativeLayout>
+
+
+    </LinearLayout>
+    <fragment android:id="@+id/navigation_drawer"
+        android:layout_width="@dimen/navigation_drawer_width" android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:name="run.brief.browse.NavigationDrawerFragment"
+        tools:layout="@layout/navigation_drawer"
+        android:fitsSystemWindows="true"
+        />
+
+    <!-- As the main content view, the view below consumes the entire
+         space available using match_parent in both dimensions. -->
+
+
+    <!-- android:layout_gravity="start" tells DrawerLayout to treat
+         this as a sliding drawer on the left side for left-to-right
+         languages and on the right side for right-to-left languages.
+         If you're not building against API 17 or higher, use
+         android:layout_gravity="left" instead. -->
+    <!-- The drawer is given a fixed width in dp and extends the full height of
+         the container. -->
+
+
+</android.support.v4.widget.DrawerLayout>

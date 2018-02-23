@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".Main">
+    <item
+        android:id="@+id/menu_share"
+        android:title="@string/label_share"
+
+        android:icon="@drawable/social_share"
+        app:showAsAction="always" />
+</menu>
