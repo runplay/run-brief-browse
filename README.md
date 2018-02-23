@@ -1,4 +1,4 @@
-# Browse - File Manager
+# run-brief-browse
 ![alt tag](https://lh3.googleusercontent.com/LAmIUPzNi_MRnw9OB3f4ZJQexSipREB981Hq89fWg6fObgGl7rkhdw9SRYEhjNzPiUH1=w300-rw "Browse - File Manager Logo")
 
 <h1>Browse - File manager</h1>
